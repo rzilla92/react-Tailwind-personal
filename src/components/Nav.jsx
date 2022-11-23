@@ -19,9 +19,9 @@ function Nav() {
           <div className='flex items-center justify-between'>
               <div className='pt-2'><i className="fa-solid fa-mug-hot text-brightRed text-2xl baseline"></i></div>
               <div className='hidden md:flex justify-center items-center space-x-6'>
-                  <Link to="home" activeClass="active" smooth={true} spy={true} className="font-semibold hover:opacity-70">Home</Link>
-                  <Link to="about" smooth={true} spy={true} className="font-semibold hover:opacity-70">About</Link>
-                  <Link to="projects" smooth={true} spy={true} className="font-semibold hover:opacity-70">Projects</Link>
+                  <Link to="home" activeClass="active" smooth={true} spy={true} className="font-semibold cursor-pointer hover:opacity-70">Home</Link>
+                  <Link to="about" smooth={true} spy={true} className="font-semibold cursor-pointer hover:opacity-70">About</Link>
+                  <Link to="projects" smooth={true} spy={true} className="font-semibold cursor-pointer hover:opacity-70">Projects</Link>
               </div>
               <Link to="contact" smooth={true} spy={true} className='hidden md:block rounded-full px-6 py-2 cursor-pointer transition-all bg-brightRed hover:bg-darkBlue font-bold text-white'>Contact</Link>
               

@@ -4,7 +4,7 @@ import {Link} from 'react-scroll'
 
 function Hero() {
   return (
-    <section id="hero" className='bg-brightRedSupLight'>
+    <section id="hero" className='bg-brightRedSupLight py-24'>
         <div className='container flex flex-col-reverse md:flex-row items-center px-6 mx-auto space-y-0 md:space-y-0'>
           <div className='flex flex-col mb-16 mt-5 space-y-12 md:mb-32 md:mt-32 md:w-1/2'>
             <h1 className='max-w-md text-5xl font-bold text-center md:text-5xl md:text-left'>
