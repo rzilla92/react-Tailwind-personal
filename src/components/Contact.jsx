@@ -7,7 +7,7 @@ function Contact() {
             <div className='flex-1 text-center mb-10'>
                 <h1 className='font-bold text-2xl text-veryDarkBlue'>Feel free to contact me or view my CV</h1>
             </div>
-            <div className='flex-1 flex flex-col md:flex-row justify-center items-center gap-8'>
+            <div className='flex-1 flex flex-row justify-center items-center gap-8'>
               <a target='_blank' rel='nonreferrer noopener' className=' cursor-pointer transition-all hover:opacity-75 hover:scale-110 ' href='https://www.linkedin.com/in/sari-putra-gunawan-62666259/'><i class="fa-brands fa-linkedin text-4xl text-brightRed"></i></a>
               <a target='_blank' rel='nonreferrer noopener' className=' cursor-pointer transition-all hover:opacity-75 hover:scale-110 ' href='https://github.com/rzilla92'><i class="fa-brands fa-github text-4xl text-brightRed"></i></a>
               <a target='_blank' rel='nonreferrer noopener' className=' cursor-pointer transition-all hover:opacity-75 hover:scale-110 ' href='https://www.instagram.com/royzilla92/'><i class="fa-brands fa-instagram text-4xl text-brightRed"></i></a>

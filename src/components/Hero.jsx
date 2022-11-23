@@ -1,5 +1,6 @@
 import React from 'react'
 import hello from '../assets/hello.svg'
+import {Link} from 'react-scroll'
 
 function Hero() {
   return (
@@ -13,7 +14,7 @@ function Hero() {
             I am a Front-end Developer,Graphic & Motion Designer. I like to dabble in various parts of frontend development and like to stay updated on new technologies, create contents and street feeding in my free time.
             </p>
             <div className='flex justify-center md:justify-start'>
-              <a href='#' className='baseline rounded-full px-6 py-2 cursor-pointer transition-all bg-brightRed hover:bg-darkBlue font-bold text-white'>Contact</a>
+              <Link to="contact" smooth={true} spy={true} className='baseline rounded-full px-6 py-2 cursor-pointer transition-all bg-brightRed hover:bg-darkBlue font-bold text-white'>Contact</Link>
             </div>
           </div>
           <div className='w-2/3 pt-10 md:mt-0 md:w-1/2'>

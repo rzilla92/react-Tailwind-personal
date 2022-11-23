@@ -9,7 +9,7 @@ function Projects() {
                 <h1 className='font-bold text-lg text-veryDarkBlue'>Check Out Some of My Work</h1>
             </div>
             <div className='flex-1 flex flex-col md:flex-row justify-center gap-8'>
-                <div className="flex-1 rounded overflow-hidden bg-white shadow-lg hover:scale-105 hover:cursor-pointer">
+                <div className="flex-1 rounded overflow-hidden bg-white shadow-lg transition-all hover:scale-105 hover:cursor-pointer">
                     <a target="_blank" rel='nonreferrer noopener' href="https://soft-fairy-3b902f.netlify.app/">
                         <img className="w-full" src={smartbrain} alt="smartbrain app"/>
                         <div className="px-6 py-4">
@@ -20,7 +20,7 @@ function Projects() {
                         </div>
                     </a>
                 </div>
-                <div className="flex-1 rounded overflow-hidden bg-white shadow-lg hover:scale-105 hover:cursor-pointer">
+                <div className="flex-1 rounded overflow-hidden bg-white shadow-lg transition-all hover:scale-105 hover:cursor-pointer">
                     <a target="_blank" rel='nonreferrer noopener' href="https://rzilla92.github.io/robofriends/">
                         <img className="w-full" src={robofriends} alt="robofriends app"/>
                         <div className="px-6 py-4">
@@ -31,7 +31,7 @@ function Projects() {
                         </div>
                     </a>
                 </div>
-                <div className="flex-1 rounded overflow-hidden bg-white shadow-lg hover:scale-105 hover:cursor-pointer">
+                <div className="flex-1 rounded overflow-hidden bg-white shadow-lg transition-all hover:scale-105 hover:cursor-pointer">
                     <a target="_blank" rel='nonreferrer noopener' href="https://rzilla92.github.io/bank-modern-ui/">
                         <img className="w-full" src={hoobank} alt="hoobank"/>
                         <div className="px-6 py-4">
@@ -42,7 +42,7 @@ function Projects() {
                         </div>
                     </a>
                 </div>
-                <div className="flex-1 rounded overflow-hidden bg-white shadow-lg hover:scale-105 hover:cursor-pointer">
+                <div className="flex-1 rounded overflow-hidden bg-white shadow-lg transition-all hover:scale-105 hover:cursor-pointer">
                     <a target="_blank" rel='nonreferrer noopener' href="https://rzilla92.github.io/travel-website-react/">
                         <img className="w-full" src={trvl} alt="trvl"/>
                         <div className="px-6 py-4">
