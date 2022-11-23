@@ -3,8 +3,8 @@ import {hoobank, smartbrain, trvl, robofriends} from '../constants'
 
 function Projects() {
   return (
-    <section id='projects' className=' bg-veryPaleRed'>
-        <div className='container flex flex-col justify-center mx-auto px-4 py-10 my-16'>
+    <section id='projects' className=' bg-veryPaleRed py-16'>
+        <div className='container flex flex-col justify-center mx-auto px-4 py-10'>
             <div className='flex-1 text-center mb-10'>
                 <h1 className='font-bold text-lg text-veryDarkBlue'>Check Out Some of My Work</h1>
             </div>

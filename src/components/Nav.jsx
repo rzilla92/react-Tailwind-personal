@@ -1,18 +1,20 @@
 import React from 'react'
 import {Link} from 'react-scroll'
 
-const btn=document.getElementById('menu-btn')
-const mnav=document.getElementById('menu')
-btn.addEventListener('click', ()=> {
-  btn.classList.toggle('open')
-  mnav.classList.toggle('flex')
-  mnav.classList.toggle('hidden')
-})
+const btn = document.getElementById('menu-btn')
+    const mnav = document.getElementById('menu')
 
+  if(btn,mnav) {
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('open')
+      mnav.classList.toggle('flex')
+      mnav.classList.toggle('hidden')
+    })
+  }
 
 function Nav() {
   return (
-    <section id='nav'>
+    <section id='nav' className='sticky top-0 z-50 bg-white'>
       <nav className='relative container mx-auto p-6'>
           <div className='flex items-center justify-between'>
               <div className='pt-2'><i className="fa-solid fa-mug-hot text-brightRed text-2xl baseline"></i></div>
@@ -28,6 +30,7 @@ function Nav() {
                 <span className='hamburger-middle'></span>
                 <span className='hamburger-bottom'></span>
               </button>
+              
           </div>
           <div className='md:hidden'>
             <div id='menu' className='absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:selfcenter left-6 right-6 drop-shadow-md'>
