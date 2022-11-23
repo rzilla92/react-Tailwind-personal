@@ -17,7 +17,7 @@ function Hero() {
               <Link to="contact" smooth={true} spy={true} className='baseline rounded-full px-6 py-2 cursor-pointer transition-all bg-brightRed hover:bg-darkBlue font-bold text-white'>Contact</Link>
             </div>
           </div>
-          <div className='w-2/3 pt-10 md:mt-0 md:w-1/2'>
+          <div className='w-[40vh] py-10 md:mt-0 md:pb-0 md:w-[60vw]'>
             <img src={hello} />
           </div>          
         </div>
