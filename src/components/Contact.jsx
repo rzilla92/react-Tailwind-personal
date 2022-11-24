@@ -5,7 +5,8 @@ function Contact() {
     <section id='contact' className=' bg-brightRed py-16 '>
         <div className='container flex flex-col justify-center  mx-auto px-4 py-10'>
             <div className='flex-1 text-center mb-10'>
-                <h1 className='font-bold text-2xl text-veryLightGray'>Feel free to contact me or view my CV</h1>
+                <h1 className=' font-normal text-2xl text-veryLightGray'>Feel free to</h1>
+                <h1 className='font-bold text-3xl text-veryLightGray'>Contact me or View my CV</h1>
             </div>
             <div className='flex-1 flex flex-row justify-center items-center gap-8'>
               <a target='_blank' rel='nonreferrer noopener' className=' cursor-pointer transition-all hover:opacity-75 hover:scale-110 ' href='https://www.linkedin.com/in/sari-putra-gunawan-62666259/'><i className="fa-brands fa-linkedin text-4xl text-white"></i></a>

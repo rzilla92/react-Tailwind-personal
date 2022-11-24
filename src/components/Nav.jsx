@@ -12,9 +12,9 @@ function Nav() {
 
   return (
     <section id='nav' className='sticky top-0 z-50 bg-white'>
-      <nav className='relative container mx-auto p-6'>
+      <nav className='relative container mx-auto px-6 py-3'>
           <div className='flex items-center justify-between'>
-              <div className='pt-2'><i className="fa-solid fa-mug-hot text-brightRed text-2xl baseline"></i></div>
+              <div className='hover:scale-110 hover:rotate-6 transition-all'><i className="fa-solid fa-mug-hot text-brightRed text-2xl baseline hover:text-darkBlue"></i></div>
               <div className='hidden md:flex justify-center items-center space-x-6'>
                   <Link to="home" activeClass="active" smooth={true} spy={true} className="font-semibold cursor-pointer hover:opacity-70">Home</Link>
                   <Link to="about" smooth={true} spy={true} className="font-semibold cursor-pointer hover:opacity-70">About</Link>
