@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import Projects from "./Projects";
 import ScrollToTop from "react-scroll-to-top";
 import Home from "./Home";
+import TechStack from "./TechStack";
 
 export {
     Nav,
@@ -13,5 +14,6 @@ export {
     About,
     Projects,
     Contact,
-    ScrollToTop
+    ScrollToTop,
+    TechStack
 }

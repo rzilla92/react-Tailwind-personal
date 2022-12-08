@@ -1,5 +1,6 @@
 import React from 'react'
 import {profilepic} from "../constants"
+import TechStack from './TechStack'
 
 function About() {
   return (
@@ -14,31 +15,16 @@ function About() {
               <p>I am a graduate from Deakin University with Bachelor in Commerce(Accounting) degree. I am a self-taught Web Developer, currently diving deeper into Front-end Web Development. I believe that to be successful in life, one must have the ability to adopt, stay committed & develop postive mindset along the journey.</p>
           </div>          
           <div className='flex-1'>
-            <h2 className=' font-semibold'>Skills</h2> 
-            <div className='flex flex-row gap-8 justify-center md:justify-start'>
-              <div>
-                <ul className='list-disc list-inside text-left'>
-                  <li>React</li>
-                  <li>CSS3</li>
-                  <li>HTML5</li>
-                  <li>Javascript</li>
-                  <li>TailwindCSS</li>
-                </ul>
-              </div>
-              <div>
-                <ul className='list-disc list-inside text-left'>
-                    <li>Photoshop</li>
-                    <li>Lightroom</li>
-                    <li>Premiere Pro</li>
-                    <li>Illustrator</li>
-                  </ul>
-              </div>
+            <h2 className=' font-semibold'>Tech Stack</h2> 
+            <div className='flex-2'>
+              <TechStack />
             </div>
 
           </div>
             
         </div>
       </div>
+      
     </section>
   )
 }
